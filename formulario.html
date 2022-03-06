@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal</title>
+    <link rel="stylesheet" href="./Estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body style="background-color:rgba(253, 114, 200, 0.4);">
+    <h2>Ingrese los siguientes datos para completar su pedido</h2>
+    
+    <div class="container">
+        <form>
+          <div class="form-group"> 
+            <label for="nombre">Ingrese su nombre:</label>
+            <input type="text" class="form-control form-control-sm" id="nombre" name="nombre">
+          </div> 
+          <div class="form-group"> 
+            <label for="tele">Ingrese su telefono:</label>
+            <input type="tel" class="form-control form-control-sm" id="tele" name="tele">
+          </div> 
+          <div class="form-group"> 
+            <label for="correo">Ingrese su correo electrónico:</label>
+            <input type="email" class="form-control form-control-sm" id="correo" name="correo">
+          </div> 
+          <div class="form-group"> 
+            <label for="descripcion">Ingrese la descripcion general de su pastel:</label>
+            <input type="text" class="form-control form-control-lg" id="descripcion" name="descripcion">
+          </div> 
+
+          <div class="formulario">
+          <a href="./Pasteleria.html">
+            <input type="button" value="Cancelar">
+        </a>
+          <input type="button" id="boton1" name="boton1" value="Enviar" onclick="alert('Registro de pedido exitoso');">
+        </div>
+        </form>
+    </div>
+</body>
+</html>

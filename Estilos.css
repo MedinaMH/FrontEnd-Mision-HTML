@@ -1,0 +1,107 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    height: 260px;
+    width: 80%;
+    
+}
+
+h2{
+    text-align: center;
+}
+.fondoColor{
+    background-color: #fda5d8;
+}
+.fondoCompleto{
+    background-image: url("./logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+.sitio {
+    background-image: url("./ini1.png");
+    
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 2px solid rgb(233, 208, 225);
+    text-align: center;
+  }
+  .pastelero {
+    background-image: url("./pastelero1.png");
+    
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 2px solid rgb(233, 208, 225);
+    text-align: center;
+  }
+
+  .encabezado{
+    background-color: rgba(228, 169, 220, 0.4);
+      margin: 0.5rem;
+      padding: 0.5rem;
+      
+  }
+  .Elegirpastel{
+    background-color: rgba(226, 210, 225, 0.4);
+    text-align: justify;
+    background-position: right;
+    float:inherit ;
+  }
+  .Elegiradorno{
+    background-color: rgba(245, 209, 242, 0.4);
+    text-align: justify;
+    background-position: right;
+    float:right ;
+  }
+  .combinaSabor{
+    background-color: rgba(255, 254, 255, 0.4);
+    text-align: justify;
+    position: absolute;
+    top: 125%;
+    left: 7%;
+  }
+  .boton{
+    height: 20px;
+    width: 7.2%;
+    background-color: rgba(255, 254, 255, 0.4);
+    position: absolute;
+    top: 175%;
+    left: 55%;
+  }
+  .boton1{
+    height: 20px;
+    width: 7.2%;
+    background-color: rgba(255, 254, 255, 0.4);
+    position: absolute;
+    top: 175%;
+    left: 35%;
+  }
+  .formulario{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+  }
+  .contacto{
+    background-color: rgb(252, 243, 243);
+    text-align: justify;
+    position: absolute;
+    top: 195%;
+    left: 15%;
+  }
+  .infoPastelero{
+    background-color: rgb(184, 181, 181);
+    text-align: justify;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    
+  }
+
+  .boPas{
+    position: absolute;
+    top: 100%;
+    left: 45%;
+  }
